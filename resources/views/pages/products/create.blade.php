@@ -79,7 +79,7 @@
                                     class="form-control @error('std_stock')
                                 is-invalid
                             @enderror"
-                                    name="std_stock" value="{{ $product->std_stock }}">
+                                    name="std_stock">
                                 @error('std_stock')
                                     <div class="invalid-feedback">
                                         {{ $message }}
@@ -92,7 +92,7 @@
                                     class="form-control @error('stock')
                                 is-invalid
                             @enderror"
-                                    name="stock" value="{{ $product->stock }}">
+                                    name="stock">
                                 @error('stock')
                                     <div class="invalid-feedback">
                                         {{ $message }}
