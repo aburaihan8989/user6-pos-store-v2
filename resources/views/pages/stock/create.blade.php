@@ -60,7 +60,7 @@
                             </div>
                             <div class="form-group">
                                 <label>Quantity</label>
-                                <input type="text"
+                                <input type="number"
                                     class="form-control @error('quantity')
                                 is-invalid
                             @enderror"
